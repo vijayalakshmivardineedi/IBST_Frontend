@@ -1,0 +1,15 @@
+/* In App.css or a relevant stylesheet */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 50; /* Makes sure the header is on top of other elements */
+  }
+  
+  main {
+    padding-top: 120px; /* Space below the fixed header */
+  }
+  
